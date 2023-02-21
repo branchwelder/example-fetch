@@ -2,7 +2,7 @@
   "name": "example-fetch",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/example-fetch/",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
